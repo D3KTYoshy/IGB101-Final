@@ -2855,7 +2855,6 @@ Transform:
   - {fileID: 1866955799}
   - {fileID: 467094643}
   - {fileID: 1812656196}
-  - {fileID: 846910670}
   - {fileID: 385273943}
   - {fileID: 614076378}
   - {fileID: 1764999980}
@@ -9810,11 +9809,11 @@ Transform:
   m_GameObject: {fileID: 846910669}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.15, y: 0.256, z: 5.37}
+  m_LocalPosition: {x: 11.15, y: 0.256, z: -12.13}
   m_LocalScale: {x: 0.37312216, y: 0.37312216, z: 0.37312216}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 578741207}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &846910671
 MonoBehaviour:
@@ -9828,6 +9827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2337b11bc32add94e8f3e53f770cb728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 526056722}
   nextLevel: Yash Scene
 --- !u!65 &846910672
 BoxCollider:
@@ -20548,6 +20548,7 @@ SceneRoots:
   - {fileID: 1815312576}
   - {fileID: 2139122011}
   - {fileID: 675804896}
+  - {fileID: 846910670}
   - {fileID: 578741207}
   - {fileID: 1586401950}
   - {fileID: 612934736}

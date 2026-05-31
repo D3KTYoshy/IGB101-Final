@@ -8338,6 +8338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2337b11bc32add94e8f3e53f770cb728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1106579354}
   nextLevel: Aleksandra Scene
 --- !u!65 &1021837380
 BoxCollider:
@@ -8427,7 +8428,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.889, y: 0.196, z: 27.149}
-  m_LocalScale: {x: 0.348381, y: 0.348381, z: 0.348381}
+  m_LocalScale: {x: 0.6542944, y: 0.6542944, z: 0.6542944}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}

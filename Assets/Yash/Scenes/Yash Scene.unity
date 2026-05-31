@@ -428,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2337b11bc32add94e8f3e53f770cb728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1439868790}
   nextLevel: IGB101 Museum
 --- !u!1 &436468230
 GameObject:

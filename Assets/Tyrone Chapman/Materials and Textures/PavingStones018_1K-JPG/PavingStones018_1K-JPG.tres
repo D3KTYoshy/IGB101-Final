@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_mnc89tio"]
+
+[ext_resource type="Texture2D" uid="uid://acg_6p5wea2t" id="Color" path="./PavingStones018_1K-JPG_Color.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_hexsaow6" id="AmbientOcclusion" path="./PavingStones018_1K-JPG_AmbientOcclusion.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_j0orw9mg" id="Displacement" path="./PavingStones018_1K-JPG_Displacement.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_pxtsmr7v" id="Roughness" path="./PavingStones018_1K-JPG_Roughness.jpg"]
+[ext_resource type="Texture2D" uid="uid://acg_r2oeds4v" id="NormalGL" path="./PavingStones018_1K-JPG_NormalGL.jpg"]
+[resource]
+albedo_texture = ExtResource("Color")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_texture = ExtResource("NormalGL")
+normal_enabled = true
+heightmap_texture = ExtResource("Displacement")
+heightmap_scale = 1.0
+heightmap_enabled = true
